@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { UNITS, STORAGE_KEY } from './constants';
 import { submitToGoogleSheet } from './utils/googleSheets';
 import './App.css';
+import logo from "./assets/logo.png";
 
 const GOOGLE_SHEET_URL =
   'https://docs.google.com/spreadsheets/d/1LAnsqvavI0WA8dOOqaCi3iNxinnr4ZcndRmDF-x6XGs/edit?usp=sharing';
@@ -108,7 +109,9 @@ function App() {
   return (
     <div className="app">
       <header className="header">
-        <div><img src="/src/assets/sio-mc-logo.png" alt="SIO MC Logo" className="logo-img" /></div>
+        <div>
+          <img src={logo} alt="Logo" className='logo-img'/>
+        </div>
         <p className="tagline">Collection Tracker</p>
       </header>
 
