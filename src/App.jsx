@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { UNITS, STORAGE_KEY } from './constants';
 import { submitToGoogleSheet } from './utils/googleSheets';
 import './App.css';
-import logo from "./assets/logo.svg";
+import logo from "./assets/sio-mc-logo.png";
 
 const GOOGLE_SHEET_URL =
   'https://docs.google.com/spreadsheets/d/1LAnsqvavI0WA8dOOqaCi3iNxinnr4ZcndRmDF-x6XGs/edit?usp=sharing';
