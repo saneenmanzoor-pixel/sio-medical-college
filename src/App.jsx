@@ -109,7 +109,7 @@ function App() {
     <div className="app">
       <header className="header">
         <div>
-          <img src="../public/logo.png" alt="Logo" className="logo-img" />
+          <img src="/logo.png" alt="Logo" className="logo-img" />
         </div>
         <p className="tagline">Collection Tracker</p>
       </header>
